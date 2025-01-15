@@ -1,5 +1,3 @@
 N = int(input())
-T = 1
-while T < 10:
-  print(N, "*", T, "=", (N * T))
-  T +=1
+for i in range(1, 10):
+  print(N, "*", i, "=", N * i)
